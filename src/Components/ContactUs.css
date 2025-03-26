@@ -1,0 +1,107 @@
+.contact-us {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #f0f0f0; /* Light gray background */
+    flex-grow: 1;
+  }
+  
+  .contact-info,
+  .contact-form {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 24px;
+    color: #333; /* Dark gray text */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Info Styling */
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info li i {
+    margin-right: 10px;
+    color: #9370db; /* Light purple icons */
+  }
+  
+  /* Contact Form Styling */
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #9370db; /* Light purple border on focus */
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background: #9370db; /* Light purple button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+  }
+  
+  .contact-form button:hover {
+    background: #7b68ee; /* Darker purple on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .contact-info,
+    .contact-form {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }

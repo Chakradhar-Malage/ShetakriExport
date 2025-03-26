@@ -1,0 +1,29 @@
+.home-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .option-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    width: 200px;
+    transition: background-color 0.3s;
+  }
+  
+  .option-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .option-card h2 {
+    margin-bottom: 10px;
+  }
