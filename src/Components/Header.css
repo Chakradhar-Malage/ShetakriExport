@@ -26,3 +26,7 @@
     border-radius: 50%;
 
 }
+
+.btn {
+    @apply px-6 py-2 bg-purple-500 p-1 no-underline rounded-lg  text-white transition duration-300;
+}

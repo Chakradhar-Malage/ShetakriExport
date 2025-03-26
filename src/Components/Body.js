@@ -27,7 +27,7 @@ const Body = () => {
     ]);
 
     return (
-        <div>
+        <div className='bg-gradient-to-b from-black via-1B1B1B via-2A2A2A via-333333 via-343434 via-3E3E3E to-black-595959 w-full h-full text-white'>
             <RouterProvider router={appRouter} />
         </div>
     )
