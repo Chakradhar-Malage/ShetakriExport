@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './HomePage.css'; // Optional: Include for styling
+import Header from './Header';
 
 function HomePage() {
   return (
     <div className="home-page">
-      <h1>Welcome to Our Website</h1>
+      <Header />
+      {/* <h1>Crop Trade</h1>
       <p>Your one-stop platform for connecting and exploring.</p>
       <div className="options">
         <Link to="/about" className="option-card">
@@ -20,7 +22,7 @@ function HomePage() {
           <h2>Our Services</h2>
           <p>Discover how we can help you</p>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
