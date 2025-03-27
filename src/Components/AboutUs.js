@@ -1,11 +1,12 @@
 import React from "react";
 import AboutUSpageFarm from "../Assets/AboutUSpageFarm.png";
+import Header from "./Header";
 
 const CropTradePage = () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       {/* Navbar */}
-      <nav className="flex justify-between items-center p-4">
+      {/* <nav className="flex justify-between items-center p-4">
         <div className="text-xl font-bold">🌱 ShetkariExports</div>
         <div className="space-x-6">
           <a href="#" className="text-xl no-underline">Introduction</a>
@@ -15,10 +16,11 @@ const CropTradePage = () => {
           <a href="#" className="text-xl no-underline">Contact</a>
         </div>
         <button className="bg-purple-600 px-4 py-2 rounded">Trade Now</button>
-      </nav>
+      </nav> */}
+      <Header />
 
       {/* Hero Section */}
-      <div className="flex flex-col items-center text-center mt-16">
+      <div className="flex flex-col items-center text-center mt-16 p-4">
         <h1 className="text-4xl font-bold">Welcome to ShetkariExports World</h1>
         <p className="text-gray-400 mt-2">
           Discover fresh crops for trade, sourced directly from farmers.
@@ -38,22 +40,22 @@ const CropTradePage = () => {
       {/* Commitment Section */}
       <div className="bg-gray-200 text-black py-12 px-6 text-center">
         <h2 className="text-2xl font-bold">Our Commitment to Quality</h2>
-        <div className="flex justify-around mt-6">
-          <div>
+        <div className="flex md:justify-between mt-6 flex-col md:flex-row items-center">
+          <div className=" md:w-1/4 p-1">
             <h3 className="font-semibold">Transparency</h3>
             <p className="text-sm text-gray-600">
               We prioritize quality and transparency in all our trades.
               Your satisfaction is our priority.
             </p>
           </div>
-          <div>
+          <div className="md:w-1/4 p-1">
             <h3 className="font-semibold">Direct Sourcing</h3>
             <p className="text-sm text-gray-600">
               At ShetkariExpots, you can access fresh crops from local farmers!
               Support sustainability and fair trade.
             </p>
           </div>
-          <div>
+          <div className="md:w-1/4 p-1">
             <h3 className="font-semibold">Sustainable</h3>
             <p className="text-sm text-gray-600">
               We believe in continuous learning and growth for a sustainable future.
@@ -64,8 +66,8 @@ const CropTradePage = () => {
 
       {/* About Us Section */}
       <div className="bg-gray-300 text-black py-12 px-6 text-center">
-        <h2 className="text-2xl font-bold">About Us</h2>
-        <p className="text-gray-600 mt-2">
+        <h2 className="text-2xl font-bold ">About Us</h2>
+        <p className="text-gray-600 mt-2 text-start md:text-center md:m-4">
         With four years of expertise in the import and export of both perishable and nonperishable food products, we are committed to delivering excellence to exporters and
 buyers through high-quality standards and efficient business solutions.
 Our advanced services are designed to bridge industry gaps and address the hidden challenges of international trade.We prioritize transparency, ensuring customer satisfaction while providing valuable market insights. By keeping our clients informed about daily market trends and future projections, we empower them to make well-informed business decisions
@@ -73,9 +75,9 @@ Our advanced services are designed to bridge industry gaps and address the hidde
       </div>
 
       {/* Current Openings Section */}
-      <div className="bg-gray-300 text-black py-12 px-6 text-center">
-        <h2 className="text-2xl font-bold">Current Openings</h2>
-        <div className="flex justify-center space-x-2 mt-4">
+      <div className="bg-gray-300 text-black py-12 px-6 text-center ">
+        <h2 className="text-2xl font-bold ">Current Openings</h2>
+        <div className="flex flex-col gap-2  items-center space-x-2 mt-4 md:flex-row md:justify-center">
           <button className="bg-purple-600 px-4 py-2 rounded text-white">ALL</button>
           <button className="bg-gray-400 px-4 py-2 rounded">IMPORT/EXPORT</button>
           <button className="bg-gray-400 px-4 py-2 rounded">CITY ADMIN</button>

@@ -6,7 +6,7 @@ import logo from "../Assets/BusinessLogo.jpeg";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=''>
+    <div className='bg-black'>
       <nav className=" text-white bg-black px-2 ">
         <div className="max-w-screen mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-auto p-2 m-2">
@@ -16,17 +16,17 @@ const Header = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex md:justify-center md:gap-5 md:w-9/12 text-2xl">
-              <Link to="/" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+            <div className="hidden md:flex md:justify-center md:gap-5 md:w-9/12 text-xl">
+              <Link to="/" className="px-4 py-1  text-blue-500 no-underline hover:text-purple-700 hover:font-bold transition">
                 Home
               </Link>
-              <Link to="/about-us" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/about-us" className="px-4 py-1  text-blue-500 no-underline hover:text-purple-700 hover:font-bold transition">
                 About
               </Link>
-              <Link to="/Services" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/Services" className="px-4 py-1  text-blue-500 no-underline hover:text-purple-700 hover:font-bold transition">
                 Services
               </Link>
-              <Link to="/contact-us" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/contact-us" className="px-4 py-1  text-blue-500 no-underline hover:text-purple-700 hover:font-bold transition">
                 Contact
               </Link>
             </div>
@@ -68,31 +68,31 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-700">
+        <div className="md:hidden bg-gray-700 opacity-60 border border-black rounded-lg ">
           <Link
             to={"/"}
-            className="text-purple-300 block px-4 py-2 no-underline text-2xl hover:bg-gray-600 hover:text-white hover:font-bold"
+            className="text-purple-300 block px-4 py-2 no-underline text-xl hover:bg-gray-800 hover:text-white hover:font-bold"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to={"/about-us"}
-            className="text-purple-300 block px-4 py-2 no-underline text-2xl hover:bg-gray-600 hover:text-white hover:font-bold"
+            className="text-purple-300 block px-4 py-2 no-underline text-xl hover:bg-gray-800 hover:text-white hover:font-bold "
             onClick={() => setIsOpen(false)}
           >
             About
           </Link>
           <Link
-            href="/services"
-            className="text-purple-300 block px-4 py-2 no-underline text-2xl hover:bg-gray-600 hover:text-white hover:font-bold"
+            to={"/services"}
+            className="text-purple-300 block px-4 py-2 no-underline text-xl hover:bg-gray-800 hover:text-white hover:font-bold"
             onClick={() => setIsOpen(false)}
           >
             Services
           </Link>
           <Link
             to={"/contact-us"}
-            className="text-purple-300 block px-4 py-2 no-underline text-2xl hover:bg-gray-600 hover:text-white hover:font-bold"
+            className="text-purple-300 block px-4 py-2 no-underline text-xl hover:bg-gray-800 hover:text-white hover:font-bold"
             onClick={() => setIsOpen(false)}
           >
             Contact

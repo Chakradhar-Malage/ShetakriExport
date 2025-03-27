@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* Left - Contact Info */}
-        <div>
+        <div className="flex flex-col items-center ">
           <p className="flex items-center space-x-2">
             <span>💬</span> <span>Chat With Sales</span>
           </p>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         {/* Solutions */}
-        <div>
+        <div className="flex flex-col items-center">
           <h3 className="text-green-400 font-semibold">Solutions</h3>
           <ul className="mt-2 space-y-1 text-gray-300">
             <li>Commission-Based Sales</li>
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         {/* Company */}
-        <div>
+        <div className="flex flex-col items-center">
           <h3 className="text-green-400 font-semibold">Company</h3>
           <ul className="mt-2 space-y-1 text-gray-300">
             <li>About Us</li>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Resources */}
-        <div>
+        <div className="flex flex-col items-center">
           <h3 className="text-green-400 font-semibold">Resources</h3>
           <ul className="mt-2 space-y-1 text-gray-300">
             <li>Blog</li>
@@ -55,7 +55,7 @@ const Footer = () => {
           </ul>
 
           {/* Social Icons */}
-          <div className="flex space-x-4 mt-4">
+          <div className="flex space-x-4 mt-4  items-center">
             <a href="#" className="text-white text-xl">🔵</a> {/* Facebook */}
             <a href="#" className="text-white text-xl">🔗</a> {/* LinkedIn */}
             <a href="#" className="text-white text-xl">🐦</a> {/* Twitter */}

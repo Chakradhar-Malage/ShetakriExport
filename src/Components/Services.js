@@ -22,12 +22,13 @@
 
 import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaHandshake, FaCheckCircle, FaTag, FaChartLine, FaGlobe, FaClock } from 'react-icons/fa';
+import Header from "./Header";
 
 const ServicesPage = () => {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       {/* Navbar */}
-      <nav className="flex justify-between items-center p-4">
+      {/* <nav className="flex justify-between items-center p-4">
         <div className="text-xl font-bold">🌱 ShetkariExports</div>
         <div className="space-x-6">
           <a href="#" className="text-xl no-underline hover:text-purple-600 transition-colors duration-200">Introduction</a>
@@ -37,7 +38,8 @@ const ServicesPage = () => {
           <a href="#" className="text-xl no-underline hover:text-purple-600 transition-colors duration-200">Contact</a>
         </div>
         <button className="bg-purple-600 px-4 py-2 rounded hover:bg-purple-700 transition-colors duration-200">Trade Now</button>
-      </nav>
+      </nav> */}
+      <Header />
 
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center mt-16 mb-12">

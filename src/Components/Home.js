@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 function HomePage() {
   return (
-    <div className="">
+    <div className='bg-black'>
       <Header />
       <Hero />
       <Footer />
