@@ -1,39 +1,39 @@
 import React, { useState } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
-import logo from "../Assets/Logo.png";
+import logo from "../Assets/BusinessLogo.jpeg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=' w-screen'>
-      <nav className=" text-white bg-black ">
-        <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center  h-auto ">
+    <div className=''>
+      <nav className=" text-white bg-black px-2 ">
+        <div className="max-w-screen mx-auto sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-auto p-2 m-2">
             {/* Logo */}
             <div className="flex-shrink-0 w-3/12 ">
-              <img src={logo} alt='logo-loading' className="w-24 object-fill"/>
+              <img src={logo} alt='logo-loading' className="w-24 object-fill rounded-3xl"/>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex md:justify-center md:gap-5 md:w-9/12 text-2xl">
-              <Link to="/" className="bg-purple-500 px-4 py-2 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
                 Home
               </Link>
-              <Link to="/about-us" className="bg-purple-500 px-4 py-2 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/about-us" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
                 About
               </Link>
-              <Link to="/services" className="bg-purple-500 px-4 py-2 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/services" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
                 Services
               </Link>
-              <Link to="/contact-us" className="bg-purple-500 px-4 py-2 rounded-lg text-white no-underline hover:bg-purple-600 transition">
+              <Link to="/contact-us" className="bg-purple-500 px-4 py-1 rounded-lg text-white no-underline hover:bg-purple-600 transition">
                 Contact
               </Link>
             </div>
 
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden">
+            <div className="md:hidden pr-6">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="text-gray-300 hover:text-white focus:outline-none"

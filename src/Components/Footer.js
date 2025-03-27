@@ -20,12 +20,12 @@ const Footer = () => {
         <div>
           <h3 className="text-green-400 font-semibold">Solutions</h3>
           <ul className="mt-2 space-y-1 text-gray-300">
-            <li>Managed WordPress Hosting</li>
-            <li>Agencies</li>
-            <li>Small & Medium-Sized Businesses</li>
-            <li>Freelancers</li>
-            <li>High-Traffic Websites</li>
-            <li>WooCommerce</li>
+            <li>Commission-Based Sales</li>
+            <li>Supplier Compliance</li>
+            <li>Fixed Price Selling</li>
+            <li>Market Reports</li>
+            <li>Import & Export Support</li>
+            <li>Fast Payments</li>
           </ul>
         </div>
 
@@ -66,10 +66,10 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-500 mt-10 pt-4 flex justify-between text-gray-400 text-sm">
-        <p>⚡ Powered by WordPress</p>
-        <p>Host With Pressable</p>
-      </div>
+      <hr className="w-full" />
+        {/* <p>⚡ Powered by WordPress</p> */}
+        {/* <p>Host With Pressable</p> */}
+       
     </footer>
   );
 };

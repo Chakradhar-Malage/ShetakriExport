@@ -7,14 +7,10 @@ import Footer from './Footer';
 
 function HomePage() {
   return (
-    <div className="home-page">
+    <div className="">
       <Header />
       <Hero />
       <Footer />
-
-
-
-
     </div>
   );
 }
