@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShetakriExport/static/css/main.5612f2e5.css",
-    "main.js": "/ShetakriExport/static/js/main.119aa4e6.js",
+    "main.js": "/ShetakriExport/static/js/main.32458283.js",
     "static/js/453.f32dd3ac.chunk.js": "/ShetakriExport/static/js/453.f32dd3ac.chunk.js",
     "static/media/AboutUSpageFarm.png": "/ShetakriExport/static/media/AboutUSpageFarm.83e450b7f6d6698ce3be.png",
     "static/media/OurValuePropositionsImg.png": "/ShetakriExport/static/media/OurValuePropositionsImg.0d703d7840ac771252d9.png",
@@ -10,11 +10,11 @@
     "static/media/BusinessLogo.jpeg": "/ShetakriExport/static/media/BusinessLogo.36b3733bd5093bb66417.jpeg",
     "index.html": "/ShetakriExport/index.html",
     "main.5612f2e5.css.map": "/ShetakriExport/static/css/main.5612f2e5.css.map",
-    "main.119aa4e6.js.map": "/ShetakriExport/static/js/main.119aa4e6.js.map",
+    "main.32458283.js.map": "/ShetakriExport/static/js/main.32458283.js.map",
     "453.f32dd3ac.chunk.js.map": "/ShetakriExport/static/js/453.f32dd3ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5612f2e5.css",
-    "static/js/main.119aa4e6.js"
+    "static/js/main.32458283.js"
   ]
 }
