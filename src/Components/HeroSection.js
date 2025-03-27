@@ -1,3 +1,5 @@
+import handshake from "../Assets/handshake.png";
+
 const HeroSection = () => {
     return (
       <div className="bg-black text-white flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16">
@@ -23,7 +25,7 @@ const HeroSection = () => {
         {/* Right Image */}
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
           <img
-            src="/handshake.png" // Replace with your handshake image path
+            src={handshake} // Replace with your handshake image path
             alt="Handshake"
             className="w-72 md:w-96"
           />
