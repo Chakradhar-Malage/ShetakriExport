@@ -116,7 +116,7 @@ Our advanced services are designed to bridge industry gaps and address the hidde
       {/* Footer */}
       <footer className="bg-black text-white py-6 px-6 text-center border-t border-gray-700">
         <div className="text-sm">© ShetkariExpots | Growing the global agricultural marketplace</div>
-        <div className="text-sm mt-2">Contact: info@ShetkariExports.com</div>
+        <div className="text-sm mt-2">Contact: info.g7foods@gmail.com</div>
       </footer>
     </div>
   );

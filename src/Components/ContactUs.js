@@ -85,13 +85,14 @@ function ContactUs() {
           <h2>Contact Information</h2>
           <ul>
             <li>
-              <i className="fas fa-map-marker-alt"></i> Address: 123 Farm Road, Agriculture City, AG 12345
+              <i className="fas fa-map-marker-alt"></i> Address: Central fruits & vegetables market,
+              Al Aweer, Dubai - UAE
             </li>
             <li>
-              <i className="fas fa-phone"></i> Phone: (123) 456-7890
+              <i className="fas fa-phone"></i> Phone: +971522320385
             </li>
             <li>
-              <i className="fas fa-envelope"></i> Email: contact@croptrade.com
+              <i className="fas fa-envelope"></i> Email: info.g7foods@gmail.com
             </li>
           </ul>
           {/* Map Container */}

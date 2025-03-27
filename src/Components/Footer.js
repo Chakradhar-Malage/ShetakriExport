@@ -9,10 +9,10 @@ const Footer = () => {
             <span>💬</span> <span>Chat With Sales</span>
           </p>
           <p className="flex items-center space-x-2 mt-2">
-            <span>📞</span> <span>1 (888) 602-6756</span>
+            <span>📞</span> <span>+971522320385</span>
           </p>
           <p className="flex items-center space-x-2 mt-2">
-            <span>📧</span> <span>sales@pressable.com</span>
+            <span>📧</span> <span>info.g7foods@gmail.com</span>
           </p>
         </div>
 

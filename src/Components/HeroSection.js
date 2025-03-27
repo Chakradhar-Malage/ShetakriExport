@@ -6,10 +6,10 @@ const HeroSection = () => {
         {/* Left Content */}
         <div className="md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-serif font-semibold leading-tight">
-            Crop Trade : Your gateway to quality crops.
+            ShetkariExports : Your gateway to quality crops.
           </h1>
           <p className="mt-4 text-lg text-gray-300">
-            Crops Trade offers a wide range of variety of crops.
+            ShetkariExports offers a wide range of variety of crops.
           </p>
           {/* Buttons */}
           <div className="mt-6 flex gap-2 md:gap-4 ">

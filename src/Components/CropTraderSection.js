@@ -16,11 +16,11 @@ const CropTraderSection = () => {
       {/* Text Section */}
       <div className="w-full md:w-1/2 md:pl-10 mt-6 md:mt-0">
         <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
-          Crop Trader ensures <br /> transparent and efficient <br />
+          Yes, We ensures <br /> transparent and efficient <br />
           crop trading through
         </h2>
         <p className="mt-4 text-gray-300 text-lg">
-          <span className="italic">CropTrade</span> revolutionizes crop trading
+          <span className="italic">ShetkariExports</span> revolutionizes crop trading
           by enabling direct, secure transactions globally, eliminating
           intermediaries, and promoting fair practices.
         </p>

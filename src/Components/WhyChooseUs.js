@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
                   </span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Transparency</h3>
+                  <h3 className="text-xl font-semibold">Financial Transparency</h3>
                   <p className="text-gray-700">
                     Clear policies &amp; fair transactions
                   </p>
@@ -110,9 +110,12 @@ const WhyChooseUs = () => {
                   </span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Financial Stability</h3>
+                  <h3 className="text-xl font-semibold">Payment Terms</h3>
                   <p className="text-gray-700">
-                    Immediate &amp; structured payments
+                    Immediate &amp; structured payments<br></br>
+                    No Credit Policy<br></br>
+                    Upfront 20% Payment: Paid after receiving Bill of Lading<br></br>
+                    Fast Settlements: Remaining 80% paid within 3-4 days of sale
                   </p>
                 </div>
               </div>
