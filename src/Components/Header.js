@@ -5,6 +5,10 @@ import logo from "../Assets/BusinessLogo.jpeg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  // const navigate = useNavigate();
+  // const handleLogoClick = () => {
+  //   navigate('/');
+  // }
   return (
     <div className='bg-black'>
       <nav className=" text-white bg-black px-2 ">
@@ -12,7 +16,10 @@ const Header = () => {
           <div className="flex items-center justify-between h-auto p-2 m-2">
             {/* Logo */}
             <div className="flex-shrink-0 w-3/12 ">
-              <img src={logo} alt='logo-loading' className="w-24 object-fill rounded-3xl"/>
+            <Link to="/">
+              <img src={logo} alt='logo-loading'  className="w-24 object-fill rounded-3xl"/>
+
+            </Link>
             </div>
 
             {/* Desktop Menu */}
