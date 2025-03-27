@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ShetakriExport/static/css/main.cfbe4045.css",
-    "main.js": "/ShetakriExport/static/js/main.26400e2d.js",
+    "main.css": "/ShetakriExport/static/css/main.4be93f63.css",
+    "main.js": "/ShetakriExport/static/js/main.ac1d8958.js",
     "static/js/453.f32dd3ac.chunk.js": "/ShetakriExport/static/js/453.f32dd3ac.chunk.js",
+    "static/media/TeamInspectingCrop.png": "/ShetakriExport/static/media/TeamInspectingCrop.ffc04e5021a207d09ad7.png",
     "static/media/AboutUSpageFarm.png": "/ShetakriExport/static/media/AboutUSpageFarm.83e450b7f6d6698ce3be.png",
     "static/media/OurValuePropositionsImg.png": "/ShetakriExport/static/media/OurValuePropositionsImg.0d703d7840ac771252d9.png",
     "static/media/handshake.png": "/ShetakriExport/static/media/handshake.263608aa10d677d3fac4.png",
     "static/media/Farmer.jpg": "/ShetakriExport/static/media/Farmer.53caeabdce672a112c1b.jpg",
     "static/media/BusinessLogo.jpeg": "/ShetakriExport/static/media/BusinessLogo.36b3733bd5093bb66417.jpeg",
     "index.html": "/ShetakriExport/index.html",
-    "main.cfbe4045.css.map": "/ShetakriExport/static/css/main.cfbe4045.css.map",
-    "main.26400e2d.js.map": "/ShetakriExport/static/js/main.26400e2d.js.map",
+    "main.4be93f63.css.map": "/ShetakriExport/static/css/main.4be93f63.css.map",
+    "main.ac1d8958.js.map": "/ShetakriExport/static/js/main.ac1d8958.js.map",
     "453.f32dd3ac.chunk.js.map": "/ShetakriExport/static/js/453.f32dd3ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfbe4045.css",
-    "static/js/main.26400e2d.js"
+    "static/css/main.4be93f63.css",
+    "static/js/main.ac1d8958.js"
   ]
 }
